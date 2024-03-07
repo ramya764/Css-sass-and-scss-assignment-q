@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #bbaaaa;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    z-index: 1000; /* Ensure it's above other elements */
+    
+    
+.section-a{
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            img{
+                max-width: 10%;
+            }
+            li {
+                margin-right: 1em;
+
+                a {
+                    color: #000000;
+                    text-decoration: none;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+}
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+
+            li {
+                margin-right: 1em;
+
+                a {
+                    color: #000000;
+                    text-decoration: none;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content {
+    margin-top: 10em; /* Adjust margin to account for fixed header */
+
+    .product-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2em;
+
+        .product-details {
+            flex: 1;
+
+            p {
+                font-size: 30px; /* Adjust the font size as needed */
+            }
+        }
+
+        .product-image {
+            max-width: 200%; /* Adjust the width as needed */
+            height: auto;
+            border-radius: 8px;
+        }
+    }
+
+   
+    .order-section {
+        background-color: #fff;
+        padding: 1em;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+}
+/* ... previous styles ... */
+
+.key-specs {
+    background-color: #e8e8e8; /* Add a different background color */
+    padding: 20px; /* Add padding for better visual appeal */
+
+    hr {
+        border: 1px solid #ccc; /* Add a border for the horizontal lines */
+        margin: 10px 0; /* Adjust the margin for spacing between specifications */
+    }
+    
+}
+
+/* ... remaining styles ... */
+
+footer {
+    background-color: #ffffff;
+    color: #040404;
+    text-align: justify;
+   
+    position: fixed;
+    font-size: large;
+    bottom: 0;
+    width: 100%;
+
+}
+.order-section {
+    background-color: #bbaaaa;
+    padding: 1em;
+    ;
+    border-radius: 20px;
+    
+}
