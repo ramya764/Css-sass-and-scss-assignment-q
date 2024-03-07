@@ -1,7 +1,7 @@
 ##Fridge-Landing-Page
 
 ## Overview:
-This repository contains the code for fridge landing page. The fridge-landing-page is designed to attract visitors, highlight the features of each product, and provide an easy way for users to place orders.
+This repository contains the code for fridge landing page. The fridge-landing-page is designed to attract visitors, highlight the features of Fridge and provide an easy way for users to place orders.
 
 ## Technologies Used:
 - HTML5
