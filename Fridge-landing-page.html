@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="section-a">
+            <nav>
+                <ul>
+                    <img src="images/image.png" alt="Product Image">
+                </ul>
+            </nav>
+        </div>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#dimensions">Dimensions</a></li>
+                <li><a href="#key-specs">Key Specs</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="features" class="product-section">
+            <div class="product-details">
+                <h2 style="color: rgb(101, 101, 101); font-size: large;">GL-X257AMCX</h2>
+                <p>Knock Twice, See Inside, 635 Ltr InstaView Door-in-Door™, Side-by-Side Refrigerator with Smart
+                    Inverter Compressor, DoorCooling+™, Matte Black Finish</p>
+            </div>
+            <img src="images/BLackFridge.avif" alt="Product Image" class="product-image">
+        </section>
+        <hr>
+
+        <section id="dimensions" class="product-section">
+            <nav><!-- Gallery content goes here -->
+                <h1 style="font-size: 30px;">Dimensions </h1>
+                <img src="images/specs.avif" alt="Product Image" class="product-image">
+            </nav>
+        </section>
+        <hr>
+        <h1 style="font-size: 30px; margin-left:15px;">Key Specs</h1>
+        <section id="key-specs" class="product-section key-specs">
+            <div class="specs-row">
+                <div class="spec-item">
+                  <p style="display: inline-block; margin-right: 20px; font-size: 20px; ">Product Dimension (WxHxD, mm):</p>
+                  <p style="display: inline-block; margin-left: 500px; font-size: 20px;">Energy Consumption (kWh/Year):</p>
+                  
+                </div>
+                <div class="spec-item">
+                  <p style="display: inline-block; margin-right: 20px; font-size: 35px; "><b>913 x 1790 x 735</b></p>
+                  <p style="display: inline-block; margin-left: 650px; font-size: 35px;  "><b>N/A</b></p>
+   
+              </div>
+<hr>
+              <div class="spec-item">
+                <p style="display: inline-block; margin-right: 20px; font-size: 20px; ">ENERGY CONSUMPTION GRADE</p>
+                <p style="display: inline-block; margin-left: 500px; font-size: 20px;">Compressor Type:</p>
+                
+              </div>
+              <div class="spec-item">
+                <p style="display: inline-block; margin-right: 20px; font-size: 35px; "><b>3 Star</b></p>
+                <p style="display: inline-block; margin-left: 528px; font-size: 35px;  "><b>Smart Inverter Compressor (BLDC)</b></p>
+ 
+            </div>
+            <hr>
+            <div class="spec-item">
+              <p style="display: inline-block; margin-right: 20px; font-size: 20px; ">InstaView</p>
+              <p style="display: inline-block; margin-left: 750px; font-size: 20px;">Door-in-Door</p>
+              
+            </div>
+            <div class="spec-item">
+              <p style="display: inline-block; margin-right: 20px; font-size: 35px; "><b>Yes</b></p>
+              <p style="display: inline-block; margin-left: 528px; font-size: 35px;  "><b>InstaView Door-in-Door(Tinted Glass)</b></p>
+
+          </div>
+          <hr>
+          <div class="spec-item">
+            <p style="display: inline-block; margin-right: 20px; font-size: 20px; ">Plumbing</p>
+            <p style="display: inline-block; margin-left: 750px; font-size: 20px;">ThinQ (Wi-Fi)</p>
+            
+          </div>
+          <div class="spec-item">
+            <p style="display: inline-block; margin-right: 20px; font-size: 35px; "><b>No plumbing required</b></p>
+            <p style="display: inline-block; margin-left: 500px; font-size: 35px;  "><b>Yes</b></p>
+
+        </div>
+            </div>
+            <!-- Add more rows for other specifications -->
+        </section>
+        <img src="images/image2.avif" alt="Product Image" class="product-image">
+
+    </main>
+
+    <footer>
+      <section class="order-section">
+        <h2>Place Your Order</h2>
+        <form action="order.php" method="post">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            
+
+            <button style="background-color: brown; font-size: larger; border-radius: 20px;" type="submit"><b>Order Now</b></button>
+        </form>
+    </section>
+    </footer>
+</body>
+
+</html>
